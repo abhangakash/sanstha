@@ -1,0 +1,38 @@
+.teachers-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .teacher-profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .teacher-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .teacher-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .teacher-card h2 {
+    margin-top: 15px;
+  }
+  
+  .teacher-card p {
+    margin: 10px 0;
+  }
+  
