@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-backend-service
+    env: node
+    plan: free
+    buildCommand: echo "No build step required"
+    startCommand: npm start
